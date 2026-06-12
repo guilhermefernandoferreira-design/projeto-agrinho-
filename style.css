@@ -1,0 +1,75 @@
+# 🌾 AgroVida — O Campo que Nos Alimenta
+
+> **Projeto p5.js** — Agricultura Sustentável, Produção, Conexão Campo-Cidade e Importância do Agro
+
+---
+
+## 🎮 Como Usar
+
+### Abrir o Projeto
+1. Extraia os arquivos em uma pasta
+2. Abra o arquivo `index.html` em qualquer navegador moderno
+3. **Ou** use um servidor local: `python3 -m http.server 8080` e acesse `http://localhost:8080`
+
+---
+
+## 🗺️ Telas do Projeto
+
+### 🌅 Tela de Introdução (Entrada )
+- Animação de amanhecer com estrelas desaparecendo e sol nascendo
+- Silhueta do campo com árvores e celeiro
+- Emojis girando ao redor do título: 🌽 🥕 🍅 🌻 🐄 🚜 🐝 🌿
+- Partículas flutuantes de sementes
+- Botão **"🌾 COMEÇAR JORNADA 🌾"** com efeito pulsante
+- Pressione **ENTER** ou clique no botão para avançar
+
+### 🏠 Menu Principal
+- Céu animado com nuvens e pássaros 🐦
+- Personagens NPC caminhando: 👩‍🌾 👨‍🔬 🧑‍🍳
+- Borboletas e abelhas voando 🦋 🐝
+- 3 opções:
+  - **🌾 Jogar** — Cultivar o Campo
+  - **📚 Aprender** — Fatos do Agro
+  - **🌍 Sobre o Projeto**
+
+### 🌱 Jogo — Cultivar o Campo
+- Controle o **👨‍🌾 Agricultor** com as setas do teclado ou WASD
+- **7 canteiros** para plantar e cultivar
+- Sistema de **4 estações**: 🌸 Primavera · ☀️ Verão · 🍂 Outono · ❄️ Inverno
+- **Chuva aleatória** que reabastece a água 🌧️
+- Celeiro 🏠, silo e trator 🚜 decorativos no cenário
+- Borboletas, abelhas e pássaros animados
+
+#### Controles do Jogo
+| Ação | Teclado | Botão |
+|------|---------|-------|
+| Mover agricultor | ← → ↑ ↓ / WASD | — |
+| Selecionar planta | Clique na planta | — |
+| Regar 💧 | R | Botão Regar |
+| Plantar 🌱 | P | Botão Plantar |
+| Colher 🌾 | C | Botão Colher |
+| Compostar ♻️ | X | Botão Compostar |
+| Voltar ao menu | ESC | Botão Menu |
+
+#### Mecânicas
+- **Plantar**: selecione um canteiro vazio e clique em Plantar
+- **Regar**: selecione uma planta e regue (consome 5% de água)
+- **Crescimento**: 3 estágios — 🌱 Broto → 🌿 Planta → 🌽/🥕/🍅/🌻/🥦 Madura
+- **Colher**: colha plantas maduras para ganhar pontos de colheita
+- **Compostar**: use 2 colheitas para recuperar 20% de nutrientes do solo ♻️
+- **Recursos**: monitore Água 💧 e Solo 🌿 no HUD superior
+
+### 📚 Tela de Informações
+5 cartões educativos sobre o agro:
+1. 🌱 Agricultura Sustentável
+2. 💧 Uso Consciente da Água
+3. 🚜 Conexão Campo e Cidade
+4. ♻️ Produção Circular
+5. 🌻 Biodiversidade no Campo
+
+Navegue com **← →** ou clique em Anterior/Próximo.
+
+---
+
+## 📁 Estrutura dos Arquivos
+
